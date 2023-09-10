@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/pointcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="0"
+        android:typeface="serif"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btncount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="count"
+        android:layout_gravity="center"
+        android:background="@drawable/buttoncount"/>
+
+    <EditText
+        android:id="@+id/textcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Text......"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="30dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:inputType="textCapSentences"/>
+
+</LinearLayout>
